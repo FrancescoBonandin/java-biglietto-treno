@@ -32,7 +32,7 @@ public class CalcolaBiglietto {
 			 if(age < 18) {
 				 
 				 price *=0.8;
-				 
+ 				//-----------------------------------------------------------------------------------CORREZIONE/+String.format("%.2f",price)		 																									
 				System.out.println("sei under 18, hai diritto al 20% di sconto, quindi la tua spesa è di " + price +"€");
 				
 			 }
@@ -40,13 +40,13 @@ public class CalcolaBiglietto {
 			 else if(age > 65) {
 				 
 				 price *=0.6;
-				 
+				//-----------------------------------------------------------------------------------CORREZIONE/+String.format("%.2f",price)
 				System.out.println("sei over 65, hai diritto al 20% di sconto, quindi la tua spesa è di " + price +"€");
 				
 			 }
 			 
 			 else {
-				 
+				//-----------------------------------------------------------------------------------CORREZIONE/+String.format("%.2f",price)
 				 System.out.println("non hai diritto a nessuno sconto, quindi la tua spesa è di " + price +"€");
 			 
 			 }
